@@ -20,10 +20,10 @@ function getComputerChoice() {
 
 function getHumanChoice() {
 
-    let humanChoice = prompt("Choose Rock or Paper or Scissors");
+    let humanChoice = prompt("Choose Rock or Paper or Scissors").toLowerCase();
 
     if (humanChoice == "rock" || humanChoice == "paper" || humanChoice == "scissors") {
-        return humanChoice.toLowerCase();
+        return humanChoice;
     }
 
 }
