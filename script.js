@@ -101,7 +101,7 @@ function CheckScores() {
 function restGame() {
     const restBtn = document.createElement("button");
     restBtn.classList.add("rest-button")
-    restBtn.textContent = "Rest Game"
+    restBtn.textContent = "Reset Game"
     restBtn.style.marginLeft = "20px";
     result.appendChild(restBtn);
     restBtn.addEventListener("click", () => {
